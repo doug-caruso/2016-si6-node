@@ -18,7 +18,8 @@ function start(route, handler){
         
         response.statusCode = 200
         response.setHeader('Content-Type', 'text/plain')
-        response.end('Hello World')
+        response.write("Hello World!")
+        response.end()
     }
 }
 

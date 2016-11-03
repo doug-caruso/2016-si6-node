@@ -9,4 +9,5 @@ function route(path, handler) {
     }
 }
 
+//Public API
 exports.route = route;
